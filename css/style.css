@@ -1,0 +1,177 @@
+body {
+  background-color: black;
+}
+/* 
+Вспомогательный селектор */
+.flex {
+  display: flex;
+}
+
+/* Вспомогательный селектор */
+.jc-c {
+  justify-content: center;
+}
+
+/* Вспомогательный селектор */
+.jc-sb {
+  justify-content: space-between;
+}
+
+/* Вспомогательный селектор */
+.ml30 {
+  margin-left: 30px;
+}
+
+/* Вспомогательный селектор */
+.mt20 {
+  margin-top: 20px;
+}
+
+/* Вспомогательный селектор */
+.mt45 {
+  margin-top: 45px;
+}
+
+/* Вспомогательный селектор */
+.al-ic {
+  align-items: center;
+}
+
+/* Вспомогательный селектор для иконок*/
+.img_aside {
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+}
+
+/* Подсветка иконки оранжевым цветом */
+.img_aside:hover {
+  background: linear-gradient(180deg, #fd7a32 0%, #ffa149 100%);
+}
+
+/* Подсветка белым цветом */
+.text_aside:hover {
+  color: white;
+}
+
+/* Начало CSS меню */
+aside {
+  width: 30%;
+  border: 1px solid red;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 42px 10px;
+  gap: 45px;
+  position: absolute;
+  width: 299px;
+  height: 1300px;
+  left: 0px;
+  top: 0px;
+  background: #28272b;
+}
+
+.ava {
+  margin-top: 50px;
+}
+
+.text_avatar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.content {
+  margin-left: 42px;
+}
+
+.text_content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.15em;
+  color: #ffa049;
+}
+
+.img_aside img {
+  width: 30px;
+}
+
+.text_aside {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.happy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  gap: 30px;
+  width: 216px;
+  height: 327px;
+  background: #533a79;
+  border-radius: 15px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.text_happy {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.span_happy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+button {
+  padding: 10px 18px;
+  background: #ffa049;
+  border-radius: 25px;
+  border: none;
+  width: 172px;
+  height: 47px;
+}
+
+.text_button_happy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/* Тут закончилась CSS менюшки */
+
+/* Начало CSS середины сайта */
