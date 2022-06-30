@@ -159,6 +159,7 @@ button {
   border: none;
   width: 172px;
   height: 47px;
+  cursor: pointer;
 }
 
 .text_button_happy {
