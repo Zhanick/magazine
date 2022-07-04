@@ -31,6 +31,9 @@ body {
 .mt45 {
   margin-top: 45px;
 }
+.ml25 {
+  margin-left: 25px;
+}
 
 /* Вспомогательный селектор */
 .al-ic {
@@ -51,6 +54,14 @@ body {
 /* Подсветка иконки оранжевым цветом */
 .img_nav:hover {
   background: linear-gradient(180deg, #fd7a32 0%, #ffa149 100%);
+}
+.juguetes,
+.heart,
+.comida,
+.mi_carrito,
+.cupones,
+.juguest_3 {
+  cursor: pointer;
 }
 
 /* Подсветка белым цветом */
@@ -81,6 +92,18 @@ body {
 
 /* Начало CSS меню */
 aside {
+}
+
+a {
+  text-decoration: none;
+}
+
+a.a_link {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+a.a_link:hover {
+  color: white;
 }
 
 .nav {
@@ -127,7 +150,6 @@ aside {
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
-  color: rgba(255, 255, 255, 0.4);
 }
 
 .happy {
@@ -290,4 +312,132 @@ input {
 
 .img {
   margin-top: -1px;
+}
+
+.stars {
+  margin-left: 21px;
+  margin-top: -15px;
+}
+
+.star {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-right: 24px;
+}
+
+.text_anadir_al_carrito {
+  align-items: center;
+  padding: 10px 18px;
+  width: 250px;
+  height: 30px;
+  background: #ffa049;
+  border-radius: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.text_anadir_al_carrito p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.left {
+  margin-left: 170px;
+}
+
+.p_left {
+  width: 300px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.left_batman {
+  padding: 0px;
+  width: 548px;
+  height: 386px;
+  background: #5dbf79;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.left_grey_block {
+  padding: 0px;
+  gap: 10px;
+
+  width: 548px;
+  height: 1011px;
+  left: 1155px;
+  /* Gris Oscuro/Gris Oscuro T2 */
+
+  background: #28272b;
+  border-radius: 0 0 15px 15px;
+}
+
+.text_up_batman {
+  margin: 0;
+}
+
+.text_up_left {
+  width: 485px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.text_up_left_p {
+  width: 391px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.img_footer_1 {
+}
+
+.ammet {
+  flex-direction: column;
 }
